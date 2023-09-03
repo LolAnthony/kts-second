@@ -5,6 +5,8 @@ from aiohttp.web import (
     View as AiohttpView,
     Request as AiohttpRequest,
 )
+from aiohttp_session import setup, SimpleCookieStorage
+from aiohttp_apispec import setup_aiohttp_apispec
 
 from app.admin.models import Admin
 from app.store import setup_store, Store
@@ -50,6 +52,8 @@ def setup_app(config_path: str) -> Application:
     setup_logging(app)
     setup_config(app, config_path)
     setup_routes(app)
+    setup(app, SimpleCookieStorage())
     setup_middlewares(app)
     setup_store(app)
+    setup_aiohttp_apispec(app, title='Admin panel for VK bot', url='/docs/json', swagger_path='/docs')
     return app

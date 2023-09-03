@@ -1,4 +1,4 @@
-user_token: вставьте_ваш_токен_вместо_этой_строки
+user_token: YTkyMmNiNTktN2ZjNS00ZTRmLWI2MTMtOGRhOGNiMTU4ODVkXzU2OTk=
 
 session:
   key: key_to_generate
@@ -6,7 +6,7 @@ admin:
   email: admin@admin.com
   password: admin
 bot:
-  token: group_token
-  group_id: 1
+  token: vk1.a.n9FYl29-xyxLOR-HU6UqpbBUAHrbJFT6ayzikqnnHyKGyL1a61qOI8p4hq-06ndKx5ihZYJgsgi2BL6pPIsdli8nK1LK2EI8zk0GINU7sEzh2QLOOZsj34Fvg_cT7FBZ7LJmOElzX0sq_Eh4CkkrwAjRY0IIqVS3U3BFBAfWpsHvVZK2zBiwvqqONcvmxzI602Ftj5loXSHfWg_78m0KSw
+  group_id: loftnboards
 
 
